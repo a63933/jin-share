@@ -1,0 +1,23 @@
+{
+  "name": "jin-share",
+  "version": "1.0.0",
+  "description": "jin-share",
+  "main": "main.js",
+  "bin": {
+    "jin-share": "./bin/app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a63933/jin-share.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a63933/jin-share/issues"
+  },
+  "homepage": "https://github.com/a63933/jin-share#readme"
+}
