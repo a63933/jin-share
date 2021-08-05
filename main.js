@@ -1,6 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const { Transform } = require('stream')
+const { exec } = require('child_process')
 
 let pathObj = {
     source: path.resolve(process.cwd(), 'source.html'),
@@ -40,3 +41,5 @@ fs.watch(pathObj.source, () => {
     rs.pipe(oT).pipe(ws);
 })
 
+exec(`browser-sync ` + process.cwd() + ' --watch')
+console.log(`browser-sync ` + process.cwd() + ' --watch')
